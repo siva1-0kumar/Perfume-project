@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+
+h1{
+    display:block;
+    text-align: center;
+}
+li,ul
+{
+    display: inline-block;
+    padding-left: 175px;
+}
+ul {
+    margin-left: 60%;
+}
+
+li {
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover {
+    color: white;
+}
+
+input {
+    width: 60%;
+    padding: 15px;
+}
+.food {
+    border-color: black;
+    border-width: 200px;
+    border-style: solid;
+    display: inline;
+    width: 220px;
+}
+
+.food:hover {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.product {
+    text-align: center;
+}
+
